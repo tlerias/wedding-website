@@ -1,9 +1,7 @@
 <template>
   <div class="home-container">
     <section class="home-hover-container" v-for="(item, index) in items" v-on:mouseenter="() => mouseEnter(index)" v-on:mouseleave="() => mouseLeave(index)">
-      <transition name="shrink">
-        <div class="home-maintext">{{item.quote}}</div>
-      </transition>
+      <div class="home-maintext" v-bind:class="{ shrink: active[index] }">{{item.quote}}</div>
       <transition name="appear">
         <div v-if="active[index]" class="home-subtext">{{item.subtext}}</div>
     </section>
@@ -19,7 +17,7 @@ export default {
   data() {
     const items = [
       { quote: 'We love', subtext: 'our love story' },
-      { quote: 'The things we love', subtext: 'briday party' },
+      { quote: 'The things we love', subtext: 'bridal party' },
       { quote: 'For what they are.', subtext: 'wedding & registry info' }
     ];
     const active = {};
@@ -52,6 +50,8 @@ export default {
   }
 
   .home-hover-container {
+    height: 100px;
+    overflow: hidden;
   }
 
   .home-maintext {
@@ -71,6 +71,16 @@ export default {
 
   .appear-enter, .appear-leave-to /* .appear-leave-active in <2.1.8 */ {
     opacity: 0
+  }
+
+  .shrink {
+    transition-delay: 1s;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    font-size: 1rem;
+    -webkit-transition-delay: .4s; /* Safari */
   }
 
   .bg-slide {
