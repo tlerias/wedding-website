@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    <section v-for="(item, index) in items" v-on:mouseover="() => mouseOver(index)" v-on:mouseout="() => mouseOut(index)">
+    <section class="home-hover-container" v-for="(item, index) in items" v-on:mouseenter="() => mouseEnter(index)" v-on:mouseleave="() => mouseLeave(index)">
       <transition name="shrink">
         <div class="home-maintext">{{item.quote}}</div>
       </transition>
@@ -28,10 +28,10 @@ export default {
     };
   },
   methods: {
-    mouseOver(i) {
+    mouseEnter(i) {
       this.$set(this.active, i, true);
     },
-    mouseOut(i) {
+    mouseLeave(i) {
       this.$set(this.active, i, false);
     }
   }
@@ -46,11 +46,16 @@ export default {
     font-weight: 900;
   }
 
+  .home-hover-container {
+  }
+
   .home-maintext {
     min-width: 100px;
+    cursor: pointer;
   }
 
   .home-subtext {
     font-size: 2rem;
+    cursor: pointer;
   }
 </style>
