@@ -80,7 +80,7 @@ export default {
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     font-size: 1rem;
-    -webkit-transition-delay: .4s; /* Safari */
+    -webkit-transition-delay: .2s; /* Safari */
   }
 
   .bg-slide {
