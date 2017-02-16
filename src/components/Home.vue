@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    <section v-for="(item, index) in items" v-on:mouseover="() => mouseOver(index)">
+    <section v-for="(item, index) in items" v-on:mouseover="() => mouseOver(index)" v-on:mouseout="() => mouseOut(index)">
       <transition name="shrink">
         <div class="home-maintext">{{item.quote}}</div>
       </transition>
@@ -15,18 +15,24 @@
 export default {
   name: 'hello',
   data() {
+    const items = [
+      { quote: 'We love', subtext: 'our love story' },
+      { quote: 'The things we love', subtext: 'briday party' },
+      { quote: 'For what they are.', subtext: 'wedding & registry info' }
+    ];
+    const active = {};
+    items.forEach((item, i) => (active[i] = false));
     return {
-      active: {},
-      items: [
-        { quote: 'We love', subtext: 'our love story' },
-        { quote: 'The things we love', subtext: 'briday party' },
-        { quote: 'For what they are.', subtext: 'wedding & registry info' }
-      ],
+      active,
+      items,
     };
   },
   methods: {
-    mouseOver: (i) => {
-      this.active[i] = (this.active[i] ? !this.active[i] : true);
+    mouseOver(i) {
+      this.$set(this.active, i, true);
+    },
+    mouseOut(i) {
+      this.$set(this.active, i, false);
     }
   }
 };
@@ -38,6 +44,10 @@ export default {
     font-size: 5rem;
     padding: 1rem;
     font-weight: 900;
+  }
+
+  .home-maintext {
+    min-width: 100px;
   }
 
   .home-subtext {
