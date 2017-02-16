@@ -4,10 +4,12 @@
       <transition name="shrink">
         <div class="home-maintext">{{item.quote}}</div>
       </transition>
-      <div v-if="active[index]" name="appear" transition="fade">
-        <div class="home-subtext">{{item.subtext}}</div>
-      </div>
+      <transition name="appear">
+        <div v-if="active[index]" class="home-subtext">{{item.subtext}}</div>
     </section>
+    <transition name="slide">
+      <div v-if="slide" class="bg-slide"></div>
+    </transition>
   </div>
 </template>
 
@@ -23,15 +25,18 @@ export default {
     const active = {};
     items.forEach((item, i) => (active[i] = false));
     return {
+      slide: false,
       active,
       items,
     };
   },
   methods: {
     mouseEnter(i) {
+      this.slide = true;
       this.$set(this.active, i, true);
     },
     mouseLeave(i) {
+      this.slide = false;
       this.$set(this.active, i, false);
     }
   }
@@ -57,5 +62,35 @@ export default {
   .home-subtext {
     font-size: 2rem;
     cursor: pointer;
+    color: white;
+  }
+
+  .appear-enter-active, .appear-leave-active {
+    transition: opacity .5s
+  }
+
+  .appear-enter, .appear-leave-to /* .appear-leave-active in <2.1.8 */ {
+    opacity: 0
+  }
+
+  .bg-slide {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: black;
+  }
+
+  .slide-enter-active {
+    transition: all .5s ease;
+  }
+  .slide-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-enter, .slide-leave-to
+  /* .slide-leave-active for <2.1.8 */ {
+    transform: translateX(100%);
   }
 </style>
