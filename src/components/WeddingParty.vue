@@ -1,12 +1,12 @@
 <template>
-  <div class="love-story" id="loveStory">
-    <h2>Our Love Story</h2>
+  <div class="wedding-party" id="weddingParty">
+    <h2>Wedding Party</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'love-story',
+  name: 'wedding-party',
   data() {
     return {
     };
@@ -18,7 +18,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .love-story {
+  .wedding-party {
     text-align: center;
     padding: 1rem;
     font-weight: 900;

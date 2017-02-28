@@ -4,26 +4,33 @@
       <section class="home-hover-container" v-for="(item, index) in items" v-on:mouseenter="() => mouseEnter(index)" v-on:mouseleave="() => mouseLeave(index)">
         <div class="home-maintext" v-bind:class="{ shrink: isActive }">{{item.quote}}</div>
         <transition name="appear">
-          <div v-if="active[index]" v-bind:class="{ 'home-subtext': active[index] }" v-on:click="() => onClick(items[index].name)">{{item.subtext}}</div>
+          <div v-if="active[index]" v-bind:class="{ 'home-subtext': active[index] }" v-on:click="() => scroll(items[index].name)">{{item.subtext}}</div>
         </transition>
       </section>
       <transition name="slide">
         <div v-if="slide" class="bg-slide" v-bind:class="{ 'bg-slide-our-story': active[0] }"></div>
       </transition>
+      <div v-on:click="() => scroll('weddingInfo')" class="direction-help">
+        <i class="fa fa-arrow-circle-down" />
+      </div>
     </div>
+    <wedding-info></wedding-info>
     <love-story></love-story>
+    <wedding-party></wedding-party>
   </div>
 </template>
 
 <script>
 import LoveStory from './LoveStory';
+import WeddingParty from './WeddingParty';
+import WeddingInfo from './WeddingInfo';
 export default {
   name: 'hello',
   data() {
     const items = [
       { quote: 'We love', subtext: 'our love story', name: 'loveStory' },
-      { quote: 'The things we love', subtext: 'bridal party' },
-      { quote: 'For what they are.', subtext: 'wedding & registry info' }
+      { quote: 'The things we love', subtext: 'bridesmaids and groomsmen', name: 'weddingParty' },
+      { quote: 'For what they are.', subtext: 'wedding & registry info', name: 'weddingInfo' }
     ];
     const active = {};
     items.forEach((item, i) => (active[i] = false));
@@ -45,13 +52,15 @@ export default {
       this.$set(this.active, i, false);
       this.isActive = false;
     },
-    onClick(element) {
+    scroll(element) {
       window.scroll({ top: document.getElementById(element).getBoundingClientRect().top, left: 0, behavior: 'smooth' });
 
     }
   },
   components: {
     'love-story': LoveStory,
+    'wedding-party': WeddingParty,
+    'wedding-info': WeddingInfo,
   }
 };
 </script>
@@ -91,6 +100,17 @@ export default {
 
   .appear-enter, .appear-leave-to /* .appear-leave-active in <2.1.8 */ {
     opacity: 0
+  }
+
+  .direction-help {
+    display: block;
+    margin: 0 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    bottom: 5rem;
+    cursor: pointer;
   }
 
   .shrink {
