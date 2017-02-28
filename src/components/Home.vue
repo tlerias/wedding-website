@@ -1,23 +1,27 @@
 <template>
-  <div class="home-container">
-    <section class="home-hover-container" v-for="(item, index) in items" v-on:mouseenter="() => mouseEnter(index)" v-on:mouseleave="() => mouseLeave(index)">
-      <div class="home-maintext" v-bind:class="{ shrink: active[index] }">{{item.quote}}</div>
-      <transition name="appear">
-        <div v-if="active[index]" class="home-subtext">{{item.subtext}}</div>
+  <div class="app-container">
+    <div class="home-container">
+      <section class="home-hover-container" v-for="(item, index) in items" v-on:mouseenter="() => mouseEnter(index)" v-on:mouseleave="() => mouseLeave(index)">
+        <div class="home-maintext" v-bind:class="{ shrink: isActive }">{{item.quote}}</div>
+        <transition name="appear">
+          <div v-if="active[index]" v-bind:class="{ 'home-subtext': active[index] }" v-on:click="() => onClick(items[index].name)">{{item.subtext}}</div>
+        </transition>
+      </section>
+      <transition name="slide">
+        <div v-if="slide" class="bg-slide" v-bind:class="{ 'bg-slide-our-story': active[0] }"></div>
       </transition>
-    </section>
-    <transition name="slide">
-      <div v-if="slide" class="bg-slide"></div>
-    </transition>
+    </div>
+    <love-story></love-story>
   </div>
 </template>
 
 <script>
+import LoveStory from './LoveStory';
 export default {
   name: 'hello',
   data() {
     const items = [
-      { quote: 'We love', subtext: 'our love story' },
+      { quote: 'We love', subtext: 'our love story', name: 'loveStory' },
       { quote: 'The things we love', subtext: 'bridal party' },
       { quote: 'For what they are.', subtext: 'wedding & registry info' }
     ];
@@ -27,17 +31,27 @@ export default {
       slide: false,
       active,
       items,
+      isActive: false,
     };
   },
   methods: {
     mouseEnter(i) {
       this.slide = true;
       this.$set(this.active, i, true);
+      this.isActive = true;
     },
     mouseLeave(i) {
       this.slide = false;
       this.$set(this.active, i, false);
+      this.isActive = false;
+    },
+    onClick(element) {
+      window.scroll({ top: document.getElementById(element).getBoundingClientRect().top, left: 0, behavior: 'smooth' });
+
     }
+  },
+  components: {
+    'love-story': LoveStory,
   }
 };
 </script>
@@ -48,6 +62,7 @@ export default {
     font-size: 5rem;
     padding: 1rem;
     font-weight: 900;
+    min-height: 1000px;
   }
 
   .home-hover-container {
@@ -63,6 +78,10 @@ export default {
   .home-subtext {
     font-size: 2rem;
     cursor: pointer;
+    color: white;
+  }
+
+  .home-subtext-active {
     color: white;
   }
 
@@ -85,13 +104,25 @@ export default {
   }
 
   .bg-slide {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
+    position: absolute;
     top: 0;
-    z-index: -1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
     background-color: black;
+    z-index: -1;
+  }
+
+  .bg-slide-our-story {
+    background: url('../assets/SAM_1350.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .slide-enter-active {
