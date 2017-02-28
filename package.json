@@ -10,7 +10,9 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "ansi-html": "0.0.7",
     "classnames": "^2.2.5",
+    "html-entities": "^1.2.0",
     "vue": "^2.1.10",
     "vue-router": "^2.2.0"
   },

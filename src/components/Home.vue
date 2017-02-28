@@ -4,6 +4,7 @@
       <div class="home-maintext" v-bind:class="{ shrink: active[index] }">{{item.quote}}</div>
       <transition name="appear">
         <div v-if="active[index]" class="home-subtext">{{item.subtext}}</div>
+      </transition>
     </section>
     <transition name="slide">
       <div v-if="slide" class="bg-slide"></div>
