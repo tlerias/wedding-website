@@ -130,7 +130,7 @@ export default {
     overflow: auto;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 700px) {
     .bg-slide {
       background-size: 400px;
     }
