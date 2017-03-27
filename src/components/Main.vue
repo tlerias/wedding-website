@@ -1,15 +1,15 @@
 <template>
   <div class="app-container">
     <div class="home-container">
-      <section class="home-hover-container" v-for="(item, index) in items" v-on:mouseenter="() => mouseEnter(index)" v-on:mouseleave="() => mouseLeave(index)">
-        <div class="home-maintext" v-bind:class="{ shrink: isActive }">{{item.quote}}</div>
-        <transition name="appear">
-          <div v-if="active[index]" v-bind:class="{ 'home-subtext': active[index] }" v-on:click="() => scroll(items[index].name)">{{item.subtext}}</div>
-        </transition>
+      <header class="logo">Jeremy <span class="amp">&</span> Tara</header>
+      <section class="home-quote-container" v-for="(item, index) in items">
+        <div v-on:click="() => scroll(items[index].name)">
+          <div class="home-maintext">{{item.quote}}</div>
+          <div class="home-subtext">{{item.subtext}}</div>
+        </div>
+
       </section>
-      <transition name="slide">
-        <div v-if="slide" class="bg-slide" v-bind:class="{ 'bg-slide-our-story': active[0] }"></div>
-      </transition>
+        <div class="bg-slide"></div>
       <div v-on:click="() => scroll('weddingInfo')" class="direction-help">
         <i class="fa fa-arrow-circle-down" />
       </div>
@@ -67,15 +67,31 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+  .logo {
+    position: relative;
+    font-size: 1rem;
+    text-align: right;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: #636363;
+  }
+
+  .amp {
+    font-size: 2rem;
+    color: #2c3e50;
+    vertical-align: middle;
+  }
+
   .home-container {
-    font-size: 5rem;
-    padding: 1rem;
+    font-size: 2rem;
+    padding: .5rem;
     font-weight: 900;
     height: 100vmax;
   }
 
-  .home-hover-container {
-    height: 100px;
+  .home-quote-container {
+    height: 75px;
     overflow: hidden;
   }
 
@@ -85,21 +101,9 @@ export default {
   }
 
   .home-subtext {
-    font-size: 2rem;
+    font-size: 1rem;
     cursor: pointer;
-    color: white;
-  }
-
-  .home-subtext-active {
-    color: white;
-  }
-
-  .appear-enter-active, .appear-leave-active {
-    transition: opacity .5s
-  }
-
-  .appear-enter, .appear-leave-to /* .appear-leave-active in <2.1.8 */ {
-    opacity: 0
+    color: pink;
   }
 
   .direction-help {
@@ -109,50 +113,21 @@ export default {
     font-size: 3rem;
     text-align: center;
     position: absolute;
-    bottom: 5rem;
+    bottom: 1rem;
+    left: 0;
     cursor: pointer;
   }
 
-  .shrink {
-    transition-delay: 1s;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    font-size: 1rem;
-    -webkit-transition-delay: .4s; /* Safari */
-  }
-
   .bg-slide {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    overflow: auto;
-    background-color: black;
-    z-index: -1;
-  }
-
-  .bg-slide-our-story {
     background: url('../assets/SAM_1350.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
   }
 
-  .slide-enter-active {
-    transition: all .5s ease;
-  }
-  .slide-leave-active {
-    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-  }
-  .slide-enter, .slide-leave-to
-  /* .slide-leave-active for <2.1.8 */ {
-    transform: translateX(100%);
-  }
 </style>

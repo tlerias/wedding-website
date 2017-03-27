@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from 'components/Home';
+import Main from 'components/Main';
 import LoveStory from 'components/LoveStory';
 import App from 'App';
 
@@ -11,7 +12,7 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home,
+      component: Main,
     },
   ],
 });
