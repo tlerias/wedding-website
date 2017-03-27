@@ -9,7 +9,7 @@ require('smoothscroll-polyfill').polyfill();
 Vue.use(VueMaterial);
 Vue.material.registerTheme('default', {
   primary: 'black',
-  accent: 'white',
+  accent: 'blue-grey',
   warn: 'red',
   background: 'white'
 });
