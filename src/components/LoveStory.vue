@@ -1,7 +1,8 @@
 <template>
-  <div class="love-story" id="loveStory">
+  <md-card class="love-story" id="loveStory">
     <h2>Our Love Story</h2>
-  </div>
+    <p>We're excited to share our story with you. It will take time to reveal the magic and build the page.</p>
+  </md-card>
 </template>
 
 <script>
@@ -22,6 +23,6 @@ export default {
     text-align: center;
     padding: 1rem;
     font-weight: 900;
-    min-height: 1000px;
+    min-height: 100vmax;
   }
 </style>

@@ -54,7 +54,6 @@ export default {
     },
     scroll(element) {
       window.scroll({ top: document.getElementById(element).getBoundingClientRect().top, left: 0, behavior: 'smooth' });
-
     }
   },
   components: {

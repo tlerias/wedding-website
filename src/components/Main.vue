@@ -1,15 +1,14 @@
 <template>
   <div class="app-container">
     <div class="home-container">
-      <header class="logo">Jeremy <span class="amp">&</span> Tara</header>
-      <section class="home-quote-container" v-for="(item, index) in items">
-        <div v-on:click="() => scroll(items[index].name)">
-          <div class="home-maintext">{{item.quote}}</div>
-          <div class="home-subtext">{{item.subtext}}</div>
-        </div>
-
-      </section>
-        <div class="bg-slide"></div>
+      <header class="logo" data-aos="zoom-in" data-aos-anchor-placement="bottom-center">Jeremy <span class="amp">&</span> Tara</header>
+        <section class="home-quote-container" v-for="(item, index) in items">
+          <div v-on:click="() => scroll(items[index].name)">
+            <div class="home-maintext">{{item.quote}}</div>
+            <div class="home-subtext">{{item.subtext}}</div>
+          </div>
+        </section>
+        <div class="bg-slide" data-aos="fade-right" data-aos-duration="10000"></div>
       <div v-on:click="() => scroll('weddingInfo')" class="direction-help">
         <i class="fa fa-arrow-circle-down" />
       </div>
@@ -85,14 +84,14 @@ export default {
 
   .home-container {
     font-size: 2rem;
-    padding: .5rem;
+    padding: 1rem;
     font-weight: 900;
     height: 100vmax;
   }
 
   .home-quote-container {
+    padding: 10px;
     height: 75px;
-    overflow: hidden;
   }
 
   .home-maintext {
@@ -104,6 +103,7 @@ export default {
     font-size: 1rem;
     cursor: pointer;
     color: pink;
+    padding: .5rem 0;
   }
 
   .direction-help {
@@ -113,9 +113,9 @@ export default {
     font-size: 3rem;
     text-align: center;
     position: absolute;
-    bottom: 1rem;
-    left: 0;
+    top: 1rem;
     cursor: pointer;
+    z-index: 3;
   }
 
   .bg-slide {
@@ -124,10 +124,29 @@ export default {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     margin: auto;
     overflow: auto;
+  }
+
+  @media screen and (max-width: 480px) {
+    .bg-slide {
+      background-size: 400px;
+    }
+
+    .home-container {
+      font-size: 1.2rem;
+    }
+
+    .direction-help {
+      font-size: 2rem;
+      top: 13rem;
+      right: 1rem;
+      transform:none;
+      margin: 0;
+
+    }
   }
 
 </style>

@@ -1,7 +1,9 @@
 <template>
-  <div class="wedding-party" id="weddingParty">
+  <md-card class="wedding-party" id="weddingParty">
     <h2>Wedding Party</h2>
-  </div>
+    <p>Our wedding party was carefully hand picked and we are looking forward to revealing who they are.
+      <br/>This page will be up and running soon, so be patient.</p>
+  </md-card>
 </template>
 
 <script>
@@ -22,6 +24,6 @@ export default {
     text-align: center;
     padding: 1rem;
     font-weight: 900;
-    min-height: 1000px;
+    min-height: 100vmax;
   }
 </style>

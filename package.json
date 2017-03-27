@@ -15,6 +15,7 @@
     "html-entities": "^1.2.0",
     "smoothscroll-polyfill": "^0.3.4",
     "vue": "^2.1.10",
+    "vue-material": "^0.7.1",
     "vue-router": "^2.2.0"
   },
   "devDependencies": {
