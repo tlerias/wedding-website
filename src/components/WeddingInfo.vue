@@ -2,51 +2,141 @@
   <md-card class="wedding-info" id="weddingInfo">
     <div class="md-title">Wedding Details</div>
     <div class="tiles">
-      <md-card class="tile main" data-aos="flip-left" data-aos-delay="100">
+      <md-card class="tile main" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Location, Date & Time</div>
         </md-card-header>
-        <i class="fa fa-fort-awesome" />
-        <a href="http://www.chateau-arlon.be/en/" target="_blank">Château du Bois d'Arlon</a>
+        <i class="title-icon fa fa-fort-awesome" />
+        <a href="http://www.chateau-arlon.be/en/" class="emphasize" target="_blank">Château du Bois d'Arlon</a>
         <div>Route de Virton 354, 6700 Arlon, Belgium</div>
         <section>
           <h3 class="sub-header">Time and date</h3>
-          <i class="fa fa-clock-o" />
+          <i class="title-icon fa fa-clock-o" />
           <div>4th August 2018</div>
           <h4 v-on:click="() => scroll('schedule')">Schedule</h4>
         </section>
       </md-card>
 
-      <md-card class="tile" data-aos="flip-left" data-aos-delay="200">
-        <md-card-header>
+      <md-card class="tile" data-aos="flip-left">
+        <md-card-header class="hotel-header">
           <div class="md-title">Where to stay</div>
+          <i class="title-icon fa fa-bed" />
+          <div class="md-subtitle">We have special block rates at the following hotels:</div>
         </md-card-header>
-        <i class="fa fa-bed" />
-        <a href="http://www.accorhotels.com/gb/hotel-5556-novotel-luxembourg-centre/index.shtml" target="_blank">Hotel Novotel Luxembourg Centre</a>
-        <div>35 Rue du Laboratoire, 1911 Luxembourg</div>
+        <md-card-content class="hotel-block">
+          <div class="currency-container">
+            <i class="currency fa fa-eur" />
+            <i class="currency fa fa-eur" />
+          </div>
+          <a class="emphasize" href="http://www.accorhotels.com/gb/hotel-5556-novotel-luxembourg-centre/index.shtml" target="_blank">Hotel Novotel Luxembourg Centre</a>
+          <div>35 Rue du Laboratoire, 1911 Luxembourg</div>
+          <md-card-expand>
+            <md-card-actions>
+              Prices
+              <span style="flex: 1"></span>
+              <md-button class="md-icon-button" md-expand-trigger>
+                <i class="fa fa-chevron-down" />
+              </md-button>
+            </md-card-actions>
+            <md-card-content>
+              <span class="block-dates">3rd August - 5th August</span>
+              <md-list class="md-dense">
+                <md-list-item>
+                  <span>Superior Single Room</span>
+                  <span class="md-list-action"><i class="fa fa-eur" /> 95 per night.</span>
+                </md-list-item>
+                <md-divider></md-divider>
+                <md-list-item>
+                  <span>Superior Double Room</span>
+                  <span class="md-list-action"><i class="fa fa-eur" /> 105 per night.</span>
+                </md-list-item>
+                <md-divider></md-divider>
+              </md-list>
+              <span class="addition fa fa-exclamation-circle"></span> Breakfast is included with both of these rates.
+            </md-card-content>
+          </md-card-expand>
+          <md-card-expand>
+            <md-card-actions>
+              How to book
+              <span style="flex: 1"></span>
+              <md-button class="md-icon-button" md-expand-trigger>
+                <i class="fa fa-chevron-down" />
+              </md-button>
+            </md-card-actions>
+            <md-card-content>More information to come.</md-card-content>
+          </md-card-expand>
+        </md-card-content>
+
+        <md-card-content class="hotel-block">
+          <div class="currency-container">
+            <i class="currency fa fa-eur" />
+            <i class="currency fa fa-eur" />
+            <i class="currency fa fa-eur" />
+          </div>
+          <a class="emphasize"  href="http://www.leroyalluxembourg.com/" target="_blank">Hôtel Le Royal</a>
+          <div>12 Boulevard Royal, 2449 Luxembourg</div>
+          <md-card-expand>
+            <md-card-actions>
+              Prices
+              <span style="flex: 1"></span>
+              <md-button class="md-icon-button" md-expand-trigger>
+                <i class="fa fa-chevron-down" />
+              </md-button>
+            </md-card-actions>
+            <md-card-content>
+              <span class="block-dates">3rd August - 5th August</span>
+              <md-list class="md-dense">
+                <md-list-item>
+                  <span>Single Occupancy </span>
+                  <span class="md-list-action"><i class="fa fa-eur" /> 155 per night.</span>
+                </md-list-item>
+                <md-divider></md-divider>
+                <md-list-item>
+                  <span>Double Occupancy</span>
+                  <span class="md-list-action"><i class="fa fa-eur" /> 180 per night.</span>
+                </md-list-item>
+                <md-divider></md-divider>
+              </md-list>
+              <span class="addition fa fa-exclamation-circle"></span> Breakfast is included with both of these rates.
+              <br />
+              <span class="addition fa fa-exclamation-circle"></span> Free airport shuttle is available also.
+            </md-card-content>
+          </md-card-expand>
+          <md-card-expand>
+            <md-card-actions>
+              How to book
+              <span style="flex: 1"></span>
+              <md-button class="md-icon-button" md-expand-trigger>
+                <i class="fa fa-chevron-down" />
+              </md-button>
+            </md-card-actions>
+            <md-card-content>There is a form to be completed. Email Tara tlerias@gmail.com to recieve this form. </md-card-content>
+          </md-card-expand>
+        </md-card-content>
+
         <h4 v-on:click="() => scroll('wedding-block')">Wedding Block Prices</h4>
       </md-card>
-      <md-card class="tile" data-aos="flip-left" data-aos-delay="400">
+      <md-card class="tile" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Getting to Luxembourg</div>
         </md-card-header>
-        <i class="fa fa-plane" />
+        <i class="title-icon fa fa-plane" />
         <div>The venue is 20 minutes from the Luxembourg City Center, so we recommend flying into <a href="https://www.lux-airport.lu/">Luxembourg International Airport (LUX)</a></div>
         <div>If you are coming from another European city you can look for trains from your starting city to the Gare de Luxembourg (Luxembourg Train Station)</div>
         <h4 v-on:click="() => scroll('travel-tips')">Travel tips</h4>
       </md-card>
-      <md-card class="tile" data-aos="flip-left" data-aos-delay="500">
+      <md-card class="tile" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Getting around Luxembourg</div>
         </md-card-header>
-        <i class="fa fa-bicycle" />
+        <i class="title-icon fa fa-bicycle" />
         More info to come!
       </md-card>
-      <md-card class="tile" data-aos="flip-left" data-aos-delay="500">
+      <md-card class="tile" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Registry</div>
         </md-card-header>
-        <i class="fa fa-gift" />
+        <i class="title-icon fa fa-gift" />
         More info to come!
       </md-card>
     </div>
@@ -82,7 +172,6 @@ export default {
     position: relative;
     text-align: center;
     padding: 1rem;
-    font-weight: 900;
     min-height: 1000px;
   }
 
@@ -93,13 +182,45 @@ export default {
   .sub-header {
   }
 
+  .hotel-header {
+    margin-bottom: 5px;
+  }
+
   h4{
     display: none;
   }
 
-  .fa {
+  .emphasize {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .addition {
+    color: green;
+  }
+
+  .hotel-block {
+    margin: 5px 0;
+  }
+
+  .title-icon {
     display: block;
     font-size: 2rem;
+    margin-bottom: 5px;
+  }
+
+  .block-dates {
+    font-weight: 400;
+    color: #636363;
+  }
+
+  .currency-container {
+    display: block;
+    font-size: 1.25rem;
+  }
+
+  .md-list-item {
+    margin: 5px 0;
   }
 
   .tile {

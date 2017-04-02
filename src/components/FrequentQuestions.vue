@@ -2,10 +2,10 @@
   <md-card class="frequent-questions"  id="faq">
     <div class="md-toolbar-container">
       <md-toolbar>
+        <h2 class="md-title" style="flex: 1">Frequently Asked Questions</h2>
         <md-button class="md-icon-button">
           <md-icon md-iconset="fa fa-question-circle" />
         </md-button>
-        <h2 class="md-title" style="flex: 1">Frequently Asked Questions</h2>
       </md-toolbar>
     </div>
       <article>

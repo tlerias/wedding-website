@@ -8,7 +8,7 @@
             <div class="home-subtext">{{item.subtext}}</div>
           </div>
         </section>
-        <div class="bg-slide" data-aos="fade-right" data-aos-duration="10000"></div>
+        <div class="bg-slide"></div>
       <div v-on:click="() => scroll('weddingInfo')" class="direction-help">
         <i class="fa fa-arrow-circle-down" />
       </div>
