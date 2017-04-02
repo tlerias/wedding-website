@@ -54,14 +54,14 @@
           <md-list class="md-double-line">
             <md-list-item>
               <div>
-                <span>For the men</span>
-                <span class="md-list-action">Jacket and tie.</span>
+                <div>For the men</div>
+                <span class="subtitle">Jacket and tie.</span>
               </div>
             </md-list-item>
             <md-list-item>
-              <div class="md-list-text-container">
-                <span>For the women</span>
-                <span class="md-list-action">A cocktail dress or dressy skirt and top.</span>
+              <div>
+                <div>For the women</div>
+                <span class="subtitle">A cocktail dress or dressy skirt and top.</span>
               </div>
             </md-list-item>
           </md-list>
@@ -94,5 +94,10 @@ export default {
 
   .md-theme-default.md-toolbar {
     background-color: #2c3e50;
+  }
+
+  .subtitle{
+    font-size: .9rem;
+    color:#636363;
   }
 </style>
