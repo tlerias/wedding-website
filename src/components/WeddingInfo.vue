@@ -2,7 +2,7 @@
   <md-card class="wedding-info" id="weddingInfo">
     <div class="md-title">Wedding Details</div>
     <div class="tiles">
-      <md-card class="tile main" data-aos-anchor-placement="bottom-center" data-aos="flip-left">
+      <md-card class="tile main" data-aos-anchor-placement="top-center" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Location, Date & Time</div>
         </md-card-header>
@@ -17,7 +17,7 @@
         </section>
       </md-card>
 
-      <md-card class="tile" data-aos-anchor-placement="bottom-center" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos="flip-left">
         <md-card-header class="hotel-header">
           <div class="md-title">Where to stay</div>
           <i class="title-icon fa fa-bed" />
@@ -116,38 +116,75 @@
 
         <h4 v-on:click="() => scroll('wedding-block')">Wedding Block Prices</h4>
       </md-card>
-      <md-card class="tile" data-aos-anchor-placement="bottom-center" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Getting to Luxembourg</div>
         </md-card-header>
-            <i class="title-icon fa fa-plane" />
           <md-card-content>
             <md-card>
               <md-card-content>
-                <md-card-content>The venue is 20 minutes from the Luxembourg City Center, so we recommend flying into <a href="https://www.lux-airport.lu/">Luxembourg International Airport (LUX)</a></md-card-content>
-                <md-divider></md-divider>
-                <md-card-content>It is also possible to fly into <a href="http://www.parisaeroport.fr/en/passengers/access/paris-charles-de-gaulle" target="_blank">Paris - Charles de Gaulle (CDG)</a> then take a high speed <a target="_blank" href="https://tgv.en.voyages-sncf.com/en/TGV-Luxembourg-Paris">TGV (2 hour) train</a> to Gare de Luxembourg (Luxembourg train station) from the Paris Est train station</md-card-content>
-                <md-divider></md-divider>
-                <md-card-content>You can fly into <a href="http://www.brusselsairport.be/en" target="_blank">Brussels Airport (BRU)</a> then drive 2.5 hours to Luxembourg (if your are renting a car), or take a local train (3.5 hours) to Gare de Luxembourg (Luxembourg train station)</md-card-content>
-                <md-card-content>You can also rent a car and fly into <a href="https://www.frankfurt-airport.com/en/flights---more/flights.html" target="_blank">Frankfurt Airport (FRA)</a> then drive 2.5 hours to Luxembourg</md-card-content>
+                <i class="title-icon fa fa-plane" />
+                <md-card-expand class="travel-info">
+                  <md-card-actions>
+                    Fly into Luxembourg *recommended
+                    <span style="flex: 1"></span>
+                    <md-button class="md-icon-button" md-expand-trigger>
+                      <i class="fa fa-chevron-down" />
+                    </md-button>
+                  </md-card-actions>
+                  <md-card-content>The venue is 20 minutes from the Luxembourg City Center, so we recommend flying into <a href="https://www.lux-airport.lu/">Luxembourg International Airport (LUX).</a></md-card-content>
+                </md-card-expand>
+
+                <md-card-expand class="travel-info">
+                  <md-card-actions>
+                    Fly to Paris then train to Luxembourg
+                    <span style="flex: 1"></span>
+                    <md-button class="md-icon-button" md-expand-trigger>
+                      <i class="fa fa-chevron-down" />
+                    </md-button>
+                  </md-card-actions>
+                  <md-card-content>It is also possible to fly into <a href="http://www.parisaeroport.fr/en/passengers/access/paris-charles-de-gaulle" target="_blank">Paris - Charles de Gaulle (CDG)</a> then take a high speed <a target="_blank" href="https://tgv.en.voyages-sncf.com/en/TGV-Luxembourg-Paris">TGV (2 hour) train</a> to Gare de Luxembourg (Luxembourg train station) from the Paris Est train station.</md-card-content>
+                </md-card-expand>
+
+                <md-card-expand class="travel-info">
+                  <md-card-actions>
+                    Fly to Brussels then drive or train to Luxembourg
+                    <span style="flex: 1"></span>
+                    <md-button class="md-icon-button" md-expand-trigger>
+                      <i class="fa fa-chevron-down" />
+                    </md-button>
+                  </md-card-actions>
+                  <md-card-content>You can fly into <a href="http://www.brusselsairport.be/en" target="_blank">Brussels Airport (BRU)</a> then drive 2.5 hours to Luxembourg (if your are renting a car), or take a local train (3.5 hours) to Gare de Luxembourg (Luxembourg train station).</md-card-content>
+                </md-card-expand>
+
+                <md-card-expand class="travel-info">
+                  <md-card-actions>
+                    Fly to Frankfurt then drive to Luxembourg
+                    <span style="flex: 1"></span>
+                    <md-button class="md-icon-button" md-expand-trigger>
+                      <i class="fa fa-chevron-down" />
+                    </md-button>
+                  </md-card-actions>
+                  <md-card-content>You can also rent a car and fly into <a href="https://www.frankfurt-airport.com/en/flights---more/flights.html" target="_blank">Frankfurt Airport (FRA)</a> then drive 2.5 hours to Luxembourg.</md-card-content>
+                </md-card-expand>
               </md-card-content>
             </md-card>
             <md-card>
               <md-card-content>
                 <i class="title-icon fa fa-train" />
-                If you are coming from another European city you can look for trains from your starting city to the Gare de Luxembourg (Luxembourg Train Station)
+                If you are coming from another European city you can look for trains from your starting city to the Gare de Luxembourg (Luxembourg Train Station). Or, you can fly into <a href="https://www.lux-airport.lu/">Luxembourg International Airport (LUX)</a>
               </md-card-content>
             </md-card>
           </md-card-content>
       </md-card>
-      <md-card class="tile" data-aos-anchor-placement="bottom-center" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Getting around Luxembourg</div>
         </md-card-header>
         <i class="title-icon fa fa-bicycle" />
         More info to come!
       </md-card>
-      <md-card class="tile" data-aos-anchor-placement="bottom-center" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Registry</div>
         </md-card-header>
@@ -233,6 +270,10 @@ export default {
 
   h4{
     display: none;
+  }
+
+  .travel-info {
+    text-align: left;
   }
 
   .emphasize {
