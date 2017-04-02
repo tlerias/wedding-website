@@ -138,19 +138,19 @@
         </md-card-header>
         <i class="title-icon fa fa-gift" />
         <md-card-content class="flex">
-          <a target="_blank" href="https://www.myregistry.com/wedding-registry/Tara-Lerias-Jeremy-Bird-Dix-Hills-Ny/1155521?publicUrlName=birdslove">
+          <a class="registry-item" target="_blank" href="https://www.myregistry.com/wedding-registry/Tara-Lerias-Jeremy-Bird-Dix-Hills-Ny/1155521?publicUrlName=birdslove">
             <img src="../assets/myregistry.png" width="100"/>
           </a>
-          <a target="_blank" href="https://www.united.com/CMS/en-US/products/travelproducts/Pages/CashGiftRegistry.aspx">
+          <a class="registry-item" target="_blank" href="https://www.united.com/CMS/en-US/products/travelproducts/Pages/CashGiftRegistry.aspx">
             <img src="../assets/united.png" width="100"/>
           </a>
-          <a target="_blank" href="https://www.honeyfund.com/wedding/birdslove">
+          <a class="registry-item" target="_blank" href="https://www.honeyfund.com/wedding/birdslove">
             <img src="../assets/honeyfund.png" width="100"/>
           </a>
-          <a target="_blank" href="https://www.amazon.com/wedding/tara-lerias-jeremy-bird-paris-august-2018/registry/2SXS2GHJ7H7L9">
+          <a class="registry-item" target="_blank" href="https://www.amazon.com/wedding/tara-lerias-jeremy-bird-paris-august-2018/registry/2SXS2GHJ7H7L9">
             <img src="../assets/amazon.jpg" width="100"/>
           </a>
-          <a target="_blank" href="https://www.bedbathandbeyond.com:443/store/giftregistry/view_registry_guest.jsp?registryId=543690110&eventType=Wedding&pwsurl=">
+          <a class="registry-item" target="_blank" href="https://www.bedbathandbeyond.com:443/store/giftregistry/view_registry_guest.jsp?registryId=543690110&eventType=Wedding&pwsurl=">
             <img src="../assets/bedbath.png" width="100"/>
           </a>
         </md-card-content>
@@ -189,6 +189,10 @@ export default {
     text-align: center;
     padding: 1rem;
     min-height: 1000px;
+  }
+
+  .registry-item {
+    min-height: 50px;
   }
 
   .flex {
