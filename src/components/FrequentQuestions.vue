@@ -8,23 +8,67 @@
         </md-button>
       </md-toolbar>
     </div>
-      <article>
-      <md-list class="md-double-line">
-        <md-list-item id="schedule">
-          <md-subheader>What's the schedule for the weekend?</md-subheader>
-          <div>More info to come!</div>
-        </md-list-item>
-        <md-list-item id="wedding-block">
-          <md-subheader>How much is a room with the wedding block?</md-subheader>
-          <div>More info to come!</div>
-        </md-list-item>
-        <md-list-item id="travel-tips">
-          <md-subheader>How can I make a trip around Europe out of this?</md-subheader>
-          <div>More info to come!</div>
-        </md-list-item>
+    <md-card-content>
+      <md-card-expand>
+        <md-card-actions>
+          <md-subheader id="schedule">What's the schedule for the weekend?</md-subheader>
+          <span style="flex: 1"></span>
+          <md-button class="md-icon-button" md-expand-trigger>
+            <i class="fa fa-chevron-down" />
+          </md-button>
+        </md-card-actions>
+        <md-card-content>More info to come!</md-card-content>
+      </md-card-expand>
 
-      </md-list>
-    </article>
+      <md-card-expand>
+        <md-card-actions>
+          <md-subheader id="wedding-block">How much is a room with the wedding block?</md-subheader>
+          <span style="flex: 1"></span>
+          <md-button class="md-icon-button" md-expand-trigger>
+            <i class="fa fa-chevron-down" />
+          </md-button>
+        </md-card-actions>
+        <md-card-content>More info to come!</md-card-content>
+      </md-card-expand>
+
+      <md-card-expand>
+        <md-card-actions>
+          <md-subheader id="travel-tips">How can I make a trip around Europe out of this?</md-subheader>
+          <span style="flex: 1"></span>
+          <md-button class="md-icon-button" md-expand-trigger>
+            <i class="fa fa-chevron-down" />
+          </md-button>
+        </md-card-actions>
+        <md-card-content>More info to come!</md-card-content>
+      </md-card-expand>
+
+      <md-card-expand>
+        <md-card-actions>
+          <md-subheader id="attire">What is the wedding attire?</md-subheader>
+          <span style="flex: 1"></span>
+          <md-button class="md-icon-button" md-expand-trigger>
+            <i class="fa fa-chevron-down" />
+          </md-button>
+        </md-card-actions>
+        <md-card-content>
+          <md-list class="md-double-line">
+            <md-list-item>
+              <div class="md-list-text-container">
+                <span>For the men</span>
+                <span class="md-list-action">Jacket and tie.</span>
+              </div>
+            </md-list-item>
+            <md-list-item>
+              <div class="md-list-text-container">
+                <span>For the women</span>
+                <span class="md-list-action">A cocktail dress or dressy skirt and top.</span>
+              </div>
+            </md-list-item>
+          </md-list>
+        </md-card-content>
+      </md-card-expand>
+
+    </md-card-content>
   </md-card>
 </template>
 
