@@ -2,7 +2,7 @@
   <md-card class="wedding-info" id="weddingInfo">
     <div class="md-title">Wedding Details</div>
     <div class="tiles">
-      <md-card class="tile main" data-aos-anchor-placement="top-center" data-aos="flip-left">
+      <md-card class="tile main" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Location, Date & Time</div>
         </md-card-header>
@@ -17,7 +17,7 @@
         </section>
       </md-card>
 
-      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left">
         <md-card-header class="hotel-header">
           <div class="md-title">Where to stay</div>
           <i class="title-icon fa fa-bed" />
@@ -116,7 +116,7 @@
 
         <h4 v-on:click="() => scroll('wedding-block')">Wedding Block Prices</h4>
       </md-card>
-      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Getting to Luxembourg</div>
         </md-card-header>
@@ -177,7 +177,7 @@
             </md-card>
           </md-card-content>
       </md-card>
-      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left">
         <md-card-header>
           <div class="md-title">Getting around Luxembourg</div>
         </md-card-header>
