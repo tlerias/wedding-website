@@ -53,7 +53,7 @@
         <md-card-content>
           <md-list class="md-double-line">
             <md-list-item>
-              <div class="md-list-text-container">
+              <div>
                 <span>For the men</span>
                 <span class="md-list-action">Jacket and tie.</span>
               </div>
