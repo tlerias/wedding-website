@@ -51,6 +51,7 @@
                 <md-divider></md-divider>
               </md-list>
               <span class="addition fa fa-exclamation-circle"></span> Breakfast buffet is included with both of these rates.
+              <span class="warning fa fa-exclamation-circle"></span> Deadline to book is 22 June 2018.
             </md-card-content>
           </md-card-expand>
           <md-card-expand>
@@ -83,6 +84,7 @@
               </md-button>
             </md-card-actions>
             <md-card-content>
+              <span class="block-dates">3rd August 2018 - 5th August 2018</span>
               <md-list class="md-dense">
                 <md-list-item>
                   <span>Single Occupancy </span>
@@ -98,6 +100,7 @@
               <span class="addition fa fa-exclamation-circle"></span> Breakfast buffet is included with both of these rates.
               <br />
               <span class="addition fa fa-exclamation-circle"></span> Free airport shuttle is available also.
+              <span class="warning fa fa-exclamation-circle"></span> Deadline to book is 3 July 2018.
             </md-card-content>
           </md-card-expand>
           <md-card-expand>
@@ -328,5 +331,9 @@ export default {
 
   .main {
     flex-basis: 100%;
+  }
+
+  .warning {
+    color: red;
   }
 </style>

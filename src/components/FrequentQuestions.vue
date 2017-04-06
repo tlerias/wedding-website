@@ -137,4 +137,8 @@ export default {
     font-size: .9rem;
     color:#636363;
   }
+
+  .warning {
+    color: red;
+  }
 </style>
