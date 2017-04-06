@@ -28,7 +28,8 @@
             <i class="fa fa-chevron-down" />
           </md-button>
         </md-card-actions>
-        <md-card-content>More info to come!</md-card-content>
+        <md-card-content>
+          <a v-on:click="() => scroll('hotel-block-info')">See the hotel block info</a> or you can email me <a href="mailto:tlerias@gmail.com?subject=Wedding Questions!"> tlerias[at]gmail.com</a></md-card-content>
       </md-card-expand>
 
       <md-card-expand>
@@ -76,11 +77,19 @@
 export default {
   name: 'faq',
   data() {
-    return {
-    };
+    return {};
   },
   methods: {
-  }
+    scroll(element) {
+      window.scroll({
+        top: Math.abs(
+          document.getElementById(element).getBoundingClientRect().top,
+        ),
+        left: 0,
+        behavior: 'smooth',
+      });
+    },
+  },
 };
 </script>
 

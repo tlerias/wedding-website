@@ -13,11 +13,10 @@
           <h3 class="sub-header">Time and date</h3>
           <i class="title-icon fa fa-clock-o" />
           <div>4th August 2018</div>
-          <h4 v-on:click="() => scroll('schedule')">Schedule</h4>
         </section>
       </md-card>
 
-      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left" id="hotel-block-info">
         <md-card-header class="hotel-header">
           <div class="md-title">Where to stay</div>
           <i class="title-icon fa fa-bed" />
@@ -39,7 +38,6 @@
               </md-button>
             </md-card-actions>
             <md-card-content>
-              <span class="block-dates">3rd August - 5th August</span>
               <md-list class="md-dense">
                 <md-list-item>
                   <span>Superior Single Room</span>
@@ -52,7 +50,7 @@
                 </md-list-item>
                 <md-divider></md-divider>
               </md-list>
-              <span class="addition fa fa-exclamation-circle"></span> Breakfast is included with both of these rates.
+              <span class="addition fa fa-exclamation-circle"></span> Breakfast buffet is included with both of these rates.
             </md-card-content>
           </md-card-expand>
           <md-card-expand>
@@ -63,7 +61,8 @@
                 <i class="fa fa-chevron-down" />
               </md-button>
             </md-card-actions>
-            <md-card-content>More information to come.</md-card-content>
+            <md-card-content>Please fill out <a href="../assets/novotel.pdf" download="novotel-lerias.pdf">this form</a> and email it to <a href="mailto:h5556-am@accor.com">h5556-am@accor.com</a>. You may also fax to <a href="fax:+35226480224">+352 26 48 02 24</a> or phone them at <a href="tel:+352248781">+352 24 87 81</a>.
+</md-card-content>
           </md-card-expand>
         </md-card-content>
 
@@ -84,7 +83,6 @@
               </md-button>
             </md-card-actions>
             <md-card-content>
-              <span class="block-dates">3rd August - 5th August</span>
               <md-list class="md-dense">
                 <md-list-item>
                   <span>Single Occupancy </span>
@@ -97,7 +95,7 @@
                 </md-list-item>
                 <md-divider></md-divider>
               </md-list>
-              <span class="addition fa fa-exclamation-circle"></span> Breakfast is included with both of these rates.
+              <span class="addition fa fa-exclamation-circle"></span> Breakfast buffet is included with both of these rates.
               <br />
               <span class="addition fa fa-exclamation-circle"></span> Free airport shuttle is available also.
             </md-card-content>
@@ -110,13 +108,15 @@
                 <i class="fa fa-chevron-down" />
               </md-button>
             </md-card-actions>
-            <md-card-content>There is a form to be completed. Email Tara tlerias@gmail.com to recieve this form. </md-card-content>
+            <md-card-content>Please fill out <a href="../assets/leroyal.pdf"  download="leroyal-bird.pdf">this form</a> and email it to <a href="mailto:groupcoordinator@leroyalluxembourg.com">groupcoordinator@leroyalluxembourg.com</a>. You may also fax to <a href="fax:+352225948">+352 22 59 48</a> or phone them at <a href="tel:+352241616717">+352 241 61 67 17</a>.
+</md-card-content>
           </md-card-expand>
+          <a href="mailto:tlerias@gmail.com?subject=I'm having trouble booking a hotel block!&body=Hi, Tara. I am having issue booking a hotel block. I'd like to book <HOTEL NAME>. ">Ah! I'm having trouble booking a hotel block!</a>
         </md-card-content>
 
         <h4 v-on:click="() => scroll('wedding-block')">Wedding Block Prices</h4>
       </md-card>
-      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left" id="getting-to">
         <md-card-header>
           <div class="md-title">Getting to Luxembourg</div>
         </md-card-header>
@@ -219,18 +219,21 @@ import FrequentQuestions from './FrequentQuestions';
 export default {
   name: 'wedding-info',
   data() {
-    return {
-    };
+    return {};
   },
   methods: {
     scroll(element) {
-      window.scroll({ top: document.getElementById(element).getBoundingClientRect().top, left: 0, behavior: 'smooth' });
-    }
+      window.scroll({
+        top: document.getElementById(element).getBoundingClientRect().top,
+        left: 0,
+        behavior: 'smooth',
+      });
+    },
   },
   components: {
     'quote-nav': QuoteNav,
     'frequent-questions': FrequentQuestions,
-  }
+  },
 };
 </script>
 
