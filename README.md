@@ -18,4 +18,13 @@ npm run build
 npm run build --report
 ```
 
+## Deploy
+``` bash
+cd dist
+
+npm install -g surge
+
+surge
+
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
