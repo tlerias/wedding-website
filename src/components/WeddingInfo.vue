@@ -184,7 +184,7 @@
         <i class="title-icon fa fa-bicycle" />
         More info to come!
       </md-card>
-      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left">
+      <md-card class="tile" data-aos-anchor-placement="top-center">
         <md-card-header>
           <div class="md-title">Registry</div>
         </md-card-header>
