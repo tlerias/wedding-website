@@ -61,7 +61,7 @@
                 <i class="fa fa-chevron-down" />
               </md-button>
             </md-card-actions>
-            <md-card-content>Please fill out <a href="../../../static/novotel.pdf" download="novotel-lerias.pdf">this form</a> and email it to <a href="mailto:h5556-am@accor.com">h5556-am@accor.com</a>. You may also fax to <a href="fax:+35226480224">+352 26 48 02 24</a> or phone them at <a href="tel:+352248781">+352 24 87 81</a>.
+            <md-card-content>Please fill out <a href="https://www.dropbox.com/s/5vdfke4jwdth35z/Novotel.PDF?dl=0">this form</a> and email it to <a href="mailto:h5556-am@accor.com">h5556-am@accor.com</a>. You may also fax to <a href="fax:+35226480224">+352 26 48 02 24</a> or phone them at <a href="tel:+352248781">+352 24 87 81</a>.
 </md-card-content>
           </md-card-expand>
         </md-card-content>
@@ -108,7 +108,7 @@
                 <i class="fa fa-chevron-down" />
               </md-button>
             </md-card-actions>
-            <md-card-content>Please fill out <a href="../../../static/leroyal.pdf"  download="leroyal-bird.pdf">this form</a> and email it to <a href="mailto:groupcoordinator@leroyalluxembourg.com">groupcoordinator@leroyalluxembourg.com</a>. You may also fax to <a href="fax:+352225948">+352 22 59 48</a> or phone them at <a href="tel:+352241616717">+352 241 61 67 17</a>.
+            <md-card-content>Please fill out <a href="https://www.dropbox.com/s/i8t68ccmevgm39s/LeRoyal.pdf?dl=0">this form</a> and email it to <a href="mailto:groupcoordinator@leroyalluxembourg.com">groupcoordinator@leroyalluxembourg.com</a>. You may also fax to <a href="fax:+352225948">+352 22 59 48</a> or phone them at <a href="tel:+352241616717">+352 241 61 67 17</a>.
 </md-card-content>
           </md-card-expand>
           <a href="mailto:tlerias@gmail.com?subject=I'm having trouble booking a hotel block!&body=Hi, Tara. I am having issue booking a hotel block. I'd like to book <HOTEL NAME>. ">Ah! I'm having trouble booking a hotel block!</a>
