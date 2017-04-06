@@ -40,13 +40,28 @@
             <i class="fa fa-chevron-down" />
           </md-button>
         </md-card-actions>
-        <md-card-content>
+        <md-card-content class="align-left">
           <ul>
             <li>A lot of <a href="https://www.ryanair.com/gb/en/" target="_blank"> Ryanair</a> (budget airline) flights fly out of Frankfurt–Hahn Airport (HHN). This is about an hour and a half drive from Luxembourg. It may be worth it if you're renting a car in Luxembourg because the flights out of here are very cheap</li>
             <li>There is a big Portuguese presence in Luxembourg, so lucky for us, flights to Portugal are VERY affordable. <a href="https://www.flytap.com/en-lu/" target="_blank"> (See TAP Portugal)</a></li>
             <li>There is a high speed train between Luxembourg and Paris (2 hours only)! I recommend booking your ticket 2-3 months in advance for the best price. <a href="http://www.sncf.com/en/trains/tgv" target="_blank">(Check TGV website)</a></li>
             <li>If you plan on visiting Brussels, there is a train but it takes twice as long as driving. So consider renting a car.</li>
             <li>Cheapest destinations to fly from Luxembourg are Portugal, London and Milan</li>
+            <li>My favorite sites for looking for flights and hotels:
+              <ol>
+                <li>
+                  <a href="https://www.skyscanner.net/" target="_blank">Skyscanner</a>
+                  <br />Tip: type "Everywhere" as your destinations to see cheapest places to flight for selected dates.
+                </li>
+                <li>
+                  <a href="http://booking.com/" target="_blank">Booking.com</a>
+                </li>
+                <li>
+                  <a href="https://www.kayak.com/" target="_blank">Kayak.com</a>
+                      <br />Tip: <a href="https://www.kayak.com/explore/LUX" target="_blank">Kayak.com's explore section for cheapest places to fly</a>
+                </li>
+              </ol>
+            </li>
             <li>More travel tips to come!</li>
           </ul>
         </md-card-content>
@@ -108,6 +123,10 @@ export default {
     text-align: center;
     padding: 1rem;
     font-weight: 900;
+  }
+
+  .align-left {
+    text-align: left;
   }
 
   .md-theme-default.md-toolbar {
