@@ -111,7 +111,7 @@
             <md-card-content>Please fill out <a href="https://www.dropbox.com/s/i8t68ccmevgm39s/LeRoyal.pdf?dl=0">this form</a> and email it to <a href="mailto:groupcoordinator@leroyalluxembourg.com">groupcoordinator@leroyalluxembourg.com</a>. You may also fax to <a href="fax:+352225948">+352 22 59 48</a> or phone them at <a href="tel:+352241616717">+352 241 61 67 17</a>.
 </md-card-content>
           </md-card-expand>
-          <a href="mailto:tlerias@gmail.com?subject=I'm having trouble booking a hotel block!&body=Hi, Tara. I am having issue booking a hotel block. I'd like to book <HOTEL NAME>. ">Ah! I'm having trouble booking a hotel block!</a>
+          <a href="mailto:tlerias@gmail.com?subject=I'm having trouble booking a hotel block!&body=Hi, Tara. I am having issue booking a hotel block. I'd like to book... ">Ah! I'm having trouble booking a hotel block!</a>
         </md-card-content>
 
         <h4 v-on:click="() => scroll('wedding-block')">Wedding Block Prices</h4>

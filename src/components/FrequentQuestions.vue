@@ -29,7 +29,7 @@
           </md-button>
         </md-card-actions>
         <md-card-content>
-          <a v-on:click="() => scroll('hotel-block-info')">See the hotel block info</a> or you can email me <a href="mailto:tlerias@gmail.com?subject=Wedding Questions!"> tlerias[at]gmail.com</a></md-card-content>
+          See the "<i class="fa fa-bed" />Where to stay section" or you can email me <a href="mailto:tlerias@gmail.com?subject=Wedding Questions!"> tlerias[at]gmail.com</a></md-card-content>
       </md-card-expand>
 
       <md-card-expand>

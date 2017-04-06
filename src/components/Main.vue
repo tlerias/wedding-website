@@ -79,9 +79,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .floating-menu {
-    position: fixed;
-  }
   .logo {
     position: relative;
     font-size: 1rem;
