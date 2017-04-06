@@ -40,7 +40,16 @@
             <i class="fa fa-chevron-down" />
           </md-button>
         </md-card-actions>
-        <md-card-content>More info to come!</md-card-content>
+        <md-card-content>
+          <ul>
+            <li>A lot of Ryanair (budget airline) flights fly out of Frankfurt–Hahn Airport (HHN). This is about an hour and a half drive from Luxembourg. It may be worth it if you're renting a car in Luxembourg because the flights out of here are very cheap</li>
+            <li>There is a big Portuguese presence in Luxembourg, so lucky for us, flights to Portugal are VERY affordable.</li>
+            <li>There is a high speed train between Luxembourg and Paris (2 hours only)! I recommend booking your ticket 2-3 months in advance for the best price. <a href="http://www.sncf.com/en/trains/tgv">(Check TGV website)</a></li>
+            <li>If you plan on visiting Brussels, there is a train but it takes twice as long as driving. So consider renting a car.</li>
+            <li>Cheapest destinations to fly from Luxembourg are Portugal, London and Milan</li>
+            <li>More travel tips to come!</li>
+          </ul>
+        </md-card-content>
       </md-card-expand>
 
       <md-card-expand>
