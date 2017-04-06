@@ -143,6 +143,7 @@ export default {
 
   @media screen and (max-width: 700px) {
     .bg-slide {
+      background: url('../assets/SAM_1350.jpg') no-repeat center;
       background-size: 400px;
       height: 350px;
     }
