@@ -143,7 +143,7 @@
                       <i class="fa fa-chevron-down" />
                     </md-button>
                   </md-card-actions>
-                  <md-card-content>It is also possible to fly into <a href="http://www.parisaeroport.fr/en/passengers/access/paris-charles-de-gaulle" target="_blank">Paris - Charles de Gaulle (CDG)</a> then take a high speed <a target="_blank" href="https://tgv.en.voyages-sncf.com/en/TGV-Luxembourg-Paris">TGV (2 hour) train</a> to Gare de Luxembourg (Luxembourg train station) from the Paris Est train station.</md-card-content>
+                  <md-card-content>It is also possible to fly into <a href="http://www.parisaeroport.fr/en/passengers/access/paris-charles-de-gaulle" target="_blank">Paris - Charles de Gaulle (CDG)</a> then take a high speed <a target="_blank" href="https://tgv.en.voyages-sncf.com/en/TGV-Luxembourg-Paris">TGV (2 hour) train</a> to Gare de Luxembourg (Luxembourg train station) from the Paris Est train station located in the city. There is also a TGV train that you can take from the Airport (Paris Roissy Charles De Gaulles) but this train stops in Brussels and is about a 6 hr trip.</md-card-content>
                 </md-card-expand>
 
                 <md-card-expand class="travel-info">
