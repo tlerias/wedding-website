@@ -17,6 +17,9 @@
     <wedding-info></wedding-info>
     <love-story></love-story>
     <wedding-party></wedding-party>
+    <footer class="footer">
+      This site was made with love by Tara Lerias Bird <i class="fa fa-heart" aria-hidden="true"></i>
+    </footer>
   </div>
 </template>
 
@@ -29,11 +32,19 @@ export default {
   data() {
     const items = [
       { quote: 'We love', subtext: 'our love story', name: 'loveStory' },
-      { quote: 'The things we love', subtext: 'bridesmaids and groomsmen', name: 'weddingParty' },
-      { quote: 'For what they are.', subtext: 'wedding & registry info', name: 'weddingInfo' }
+      {
+        quote: 'The things we love',
+        subtext: 'bridesmaids and groomsmen',
+        name: 'weddingParty',
+      },
+      {
+        quote: 'For what they are.',
+        subtext: 'wedding & registry info',
+        name: 'weddingInfo',
+      },
     ];
     const active = {};
-    items.forEach((item, i) => (active[i] = false));
+    items.forEach((item, i) => active[i] = false);
     return {
       slide: false,
       active,
@@ -53,14 +64,18 @@ export default {
       this.isActive = false;
     },
     scroll(element) {
-      window.scroll({ top: document.getElementById(element).getBoundingClientRect().top, left: 0, behavior: 'smooth' });
-    }
+      window.scroll({
+        top: document.getElementById(element).getBoundingClientRect().top,
+        left: 0,
+        behavior: 'smooth',
+      });
+    },
   },
   components: {
     'love-story': LoveStory,
     'wedding-party': WeddingParty,
     'wedding-info': WeddingInfo,
-  }
+  },
 };
 </script>
 

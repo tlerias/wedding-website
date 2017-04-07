@@ -16,6 +16,9 @@
     <wedding-info></wedding-info>
     <love-story></love-story>
     <wedding-party></wedding-party>
+    <footer class="footer">
+      This site was made with love by Tara Lerias Bird <i class="fa fa-heart" aria-hidden="true"></i>
+    </footer>
   </div>
 </template>
 
@@ -140,6 +143,13 @@ export default {
     margin: auto;
     overflow: auto;
   }
+
+  .footer {
+    padding: 10px;
+    font-size: .75rem;
+  }
+
+  .footer .fa-heart { font-size: .5rem; }
 
   @media screen and (max-width: 700px) {
     .bg-slide {
