@@ -137,7 +137,7 @@
                       <i class="fa fa-chevron-down" />
                     </md-button>
                   </md-card-actions>
-                  <md-card-content>The venue is 20 minutes from the Luxembourg City Center, so we recommend flying into <a href="https://www.lux-airport.lu/">Luxembourg International Airport (LUX).</a></md-card-content>
+                  <md-card-content>The venue is 20 minutes from the Luxembourg City Center, so we recommend flying into <a href="https://www.lux-airport.lu/">Luxembourg Findel Airport (LUX).</a></md-card-content>
                 </md-card-expand>
 
                 <md-card-expand class="travel-info">
@@ -177,7 +177,7 @@
             <md-card>
               <md-card-content>
                 <i class="title-icon fa fa-train" />
-                If you are coming from another European city you can look for trains from your starting city to the Gare de Luxembourg (Luxembourg Train Station). Or, you can fly into <a href="https://www.lux-airport.lu/">Luxembourg International Airport (LUX)</a>
+                If you are coming from another European city you can look for trains from your starting city to the Gare de Luxembourg (Luxembourg Train Station). Or, you can fly into <a href="https://www.lux-airport.lu/">Luxembourg Findel Airport (LUX)</a>
               </md-card-content>
             </md-card>
           </md-card-content>
