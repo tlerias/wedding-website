@@ -38,6 +38,7 @@
               </md-button>
             </md-card-actions>
             <md-card-content>
+              <span class="block-dates">3rd August 2018 - 5th August 2018</span>
               <md-list class="md-dense">
                 <md-list-item>
                   <span>Superior Single Room</span>
