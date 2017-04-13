@@ -42,11 +42,21 @@
         </md-card-actions>
         <md-card-content class="align-left">
           <ul>
-            <li>A lot of <a href="https://www.ryanair.com/gb/en/" target="_blank"> Ryanair</a> (budget airline) flights fly out of Frankfurt–Hahn Airport (HHN). This is about an hour and a half drive from Luxembourg. It may be worth it if you're renting a car in Luxembourg because the flights out of here are very cheap</li>
-            <li>There is a big Portuguese presence in Luxembourg, so lucky for us, flights to Portugal are VERY affordable. <a href="https://www.flytap.com/en-lu/" target="_blank"> (See TAP Portugal)</a></li>
+            <li>Budget Airlines
+              <ul>
+                <li>A lot of <a href="https://www.ryanair.com/gb/en/" target="_blank"> Ryanair</a> flights fly out of Frankfurt–Hahn Airport (HHN). This is about an hour and a half drive from Luxembourg. It may be worth it if you're renting a car in Luxembourg because the flights out of here are very cheap</li>
+                <li><a href="http://www.volotea.com/en/" target="_blank">Volotea</a> is another budget airline. You can find flights between Nice and Luxembourg for less that 50 Euros each way (some times as low as 5 euros).</li>
+              </ul>
+            </li>
+            <li> Other Affordable Airlines and Destinations from Luxembourg
+              <ul>
+                <li>There is a big Portuguese presence in Luxembourg, so lucky for us, flights to Portugal are VERY affordable. <a href="https://www.flytap.com/en-lu/" target="_blank"> (See TAP Portugal)</a></li>
+                <li>Cheapest destinations to fly from Luxembourg are Portugal, London and Milan</li>
+              </ul>
+            </li>
             <li>There is a high speed train between Luxembourg and Paris (2 hours only)! I recommend booking your ticket 2-3 months in advance for the best price. <a href="http://www.sncf.com/en/trains/tgv" target="_blank">(Check TGV website)</a></li>
             <li>If you plan on visiting Brussels, there is a train but it takes twice as long as driving. So consider renting a car.</li>
-            <li>Cheapest destinations to fly from Luxembourg are Portugal, London and Milan</li>
+
             <li>My favorite sites for looking for flights and hotels:
               <ol>
                 <li>
