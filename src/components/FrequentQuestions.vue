@@ -51,7 +51,8 @@
             <li> Other Affordable Airlines and Destinations from Luxembourg
               <ul>
                 <li>There is a big Portuguese presence in Luxembourg, so lucky for us, flights to Portugal are VERY affordable. <a href="https://www.flytap.com/en-lu/" target="_blank"> (See TAP Portugal)</a></li>
-                <li>Cheapest destinations to fly from Luxembourg are Portugal, London and Milan</li>
+                <li>Cheapest destinations to fly from Luxembourg are Portugal, Amsterdam, London and Milan (and many more cities)</li>
+                <li>Shoot me an email at <a href="mailto:tlerias@gmail.com?subject=Wedding Travel!"> tlerias[at]gmail.com</a> for specific travel recommendations, I'm happy to help!</li>
               </ul>
             </li>
             <li>There is a high speed train between Luxembourg and Paris (2 hours only)! I recommend booking your ticket 2-3 months in advance for the best price. <a href="http://www.sncf.com/en/trains/tgv" target="_blank">(Check TGV website)</a></li>
