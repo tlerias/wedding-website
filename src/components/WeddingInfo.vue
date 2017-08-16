@@ -309,9 +309,9 @@ export default {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-align-items: center;
-   align-items: center;
+   align-items: space-between;
    -webkit-justify-content: center;
-   justify-content: center;
+   justify-content: space-between;
   }
 
   .md-card {
