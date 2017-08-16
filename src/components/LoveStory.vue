@@ -40,6 +40,11 @@
         </p>
       </div>
       <div>
+        <h3>Our first human child, Baby Avery!</h3>
+        <p>We are expecting their first born, Avery Jane Bird, on December 31st 2017. We can't wait to meet our little girl. More information to come!
+        </p>
+      </div>
+      <div>
         <h3>The wedding</h3>
         <p>Exactly 2 years later on the date when they got married in Manhattan, we are so excited to be able to celebrate our marriage with all of our friends and family in Europe.</p>
       </div>
