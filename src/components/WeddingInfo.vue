@@ -68,7 +68,7 @@
           </md-card-expand>
         </md-card-content>
 
-        <md-card-content class="hotel-block">
+        <!-- <md-card-content class="hotel-block">
           <div class="currency-container">
             <i class="currency fa fa-eur" />
             <i class="currency fa fa-eur" />
@@ -114,6 +114,55 @@
               </md-button>
             </md-card-actions>
             <md-card-content>Please fill out <a href="https://www.dropbox.com/s/i8t68ccmevgm39s/LeRoyal.pdf?dl=0">this form</a> and email it to <a href="mailto:groupcoordinator@leroyalluxembourg.com">groupcoordinator@leroyalluxembourg.com</a>. You may also fax to <a href="fax:+352225948">+352 22 59 48</a> or phone them at <a href="tel:+352241616717">+352 241 61 67 17</a>.
+</md-card-content>
+          </md-card-expand>
+          <a href="mailto:tlerias@gmail.com?subject=I'm having trouble booking a hotel block!&body=Hi, Tara. I am having issue booking a hotel block. I'd like to book... ">Ah! I'm having trouble booking a hotel block!</a>
+        </md-card-content> -->
+
+        <md-card-content class="hotel-block">
+          <div class="currency-container">
+            <i class="currency fa fa-eur" />
+            <i class="currency fa fa-eur" />
+            <i class="currency fa fa-eur" />
+          </div>
+          <a class="emphasize"  href="http://www.sofitel.com/gb/hotel-5555-sofitel-luxembourg-le-grand-ducal/index.shtml" target="_blank">Sofitel Grand Ducal</a>
+          <div>40 Boulevard d'Avranches, 1160 Luxembourg</div>
+          <md-card-expand>
+            <md-card-actions>
+              Prices
+              <span style="flex: 1"></span>
+              <md-button class="md-icon-button" md-expand-trigger>
+                <i class="fa fa-chevron-down" />
+              </md-button>
+            </md-card-actions>
+            <md-card-content>
+              <span class="block-dates">3rd August 2018 - 5th August 2018</span>
+              <md-list class="md-dense">
+                <md-list-item>
+                  <span>Single Occupancy </span>
+                  <span class="md-list-action"><i class="fa fa-eur" /> 125 per night.</span>
+                </md-list-item>
+                <md-divider></md-divider>
+                <md-list-item>
+                  <span>Double Occupancy</span>
+                  <span class="md-list-action"><i class="fa fa-eur" /> 140 per night.</span>
+                </md-list-item>
+                <md-divider></md-divider>
+              </md-list>
+              <span class="addition fa fa-exclamation-circle"></span> Breakfast buffet is included with both of these rates.
+              <br />
+              <span class="warning fa fa-exclamation-circle"></span> Deadline to book is 29 June 2018.
+            </md-card-content>
+          </md-card-expand>
+          <md-card-expand>
+            <md-card-actions>
+              How to book
+              <span style="flex: 1"></span>
+              <md-button class="md-icon-button" md-expand-trigger>
+                <i class="fa fa-chevron-down" />
+              </md-button>
+            </md-card-actions>
+            <md-card-content>Please fill out <a href="https://www.dropbox.com/s/0imc0nnb5u8dtcd/Sofitel.pdf?dl=0">this form</a> and email it to <a href="mailto:h5555-re2@sofitel.com">h5555-re2@sofitel.com</a>. You may also fax to <a href="fax:+35226280223">+352 26 280 223</a> or phone them at <a href="tel:+35224877249">+352 24 87 72 49</a>.
 </md-card-content>
           </md-card-expand>
           <a href="mailto:tlerias@gmail.com?subject=I'm having trouble booking a hotel block!&body=Hi, Tara. I am having issue booking a hotel block. I'd like to book... ">Ah! I'm having trouble booking a hotel block!</a>
