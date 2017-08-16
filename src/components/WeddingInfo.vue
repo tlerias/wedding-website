@@ -63,7 +63,7 @@
                 <i class="fa fa-chevron-down" />
               </md-button>
             </md-card-actions>
-            <md-card-content>Please fill out <a href="https://www.dropbox.com/s/5vdfke4jwdth35z/Novotel.PDF?dl=0">this form</a> and email it to <a href="mailto:h5556-am@accor.com">h5556-am@accor.com</a>. You may also fax to <a href="fax:+35226480224">+352 26 48 02 24</a> or phone them at <a href="tel:+352248781">+352 24 87 81</a>.
+            <md-card-content>Please fill out <a target="_blank" href="https://www.dropbox.com/s/5vdfke4jwdth35z/Novotel.PDF?dl=0">this form</a> and email it to <a href="mailto:h5556-am@accor.com">h5556-am@accor.com</a>. You may also fax to <a href="fax:+35226480224">+352 26 48 02 24</a> or phone them at <a href="tel:+352248781">+352 24 87 81</a>.
 </md-card-content>
           </md-card-expand>
         </md-card-content>
@@ -125,7 +125,7 @@
             <i class="currency fa fa-eur" />
             <i class="currency fa fa-eur" />
           </div>
-          <a class="emphasize"  href="http://www.sofitel.com/gb/hotel-5555-sofitel-luxembourg-le-grand-ducal/index.shtml" target="_blank">Sofitel Grand Ducal</a>
+          <a class="emphasize"  href="http://www.sofitel.com/gb/hotel-5555-sofitel-luxembourg-le-grand-ducal/index.shtml" target="_blank">Sofitel Luxembourg Le Grand Ducal</a>
           <div>40 Boulevard d'Avranches, 1160 Luxembourg</div>
           <md-card-expand>
             <md-card-actions>
@@ -162,7 +162,7 @@
                 <i class="fa fa-chevron-down" />
               </md-button>
             </md-card-actions>
-            <md-card-content>Please fill out <a href="https://www.dropbox.com/s/0imc0nnb5u8dtcd/Sofitel.pdf?dl=0">this form</a> and email it to <a href="mailto:h5555-re2@sofitel.com">h5555-re2@sofitel.com</a>. You may also fax to <a href="fax:+35226280223">+352 26 280 223</a> or phone them at <a href="tel:+35224877249">+352 24 87 72 49</a>.
+            <md-card-content>Please fill out <a target="_blank" href="https://www.dropbox.com/s/0imc0nnb5u8dtcd/Sofitel.pdf?dl=0">this form</a> and email it to <a href="mailto:h5555-re2@sofitel.com">h5555-re2@sofitel.com</a>. You may also fax to <a href="fax:+35226280223">+352 26 280 223</a> or phone them at <a href="tel:+35224877249">+352 24 87 72 49</a>.
 </md-card-content>
           </md-card-expand>
           <a href="mailto:tlerias@gmail.com?subject=I'm having trouble booking a hotel block!&body=Hi, Tara. I am having issue booking a hotel block. I'd like to book... ">Ah! I'm having trouble booking a hotel block!</a>
