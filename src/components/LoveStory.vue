@@ -41,7 +41,7 @@
       </div>
       <div>
         <h3>Our first human child, Baby Avery!</h3>
-        <p>We are expecting their first born, Avery Jane Bird, on December 31st 2017. We can't wait to meet our little girl. More information to come!
+        <p>We are expecting our first born, Avery Jane Bird, on December 31st 2017. We can't wait to meet our little girl. More information to come!
         </p>
       </div>
       <div>
