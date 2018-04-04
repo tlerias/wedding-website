@@ -457,6 +457,7 @@
             Beautiful view of the city. Follow the walkways near the canal to see the best views in the city.
           </md-card-content>
         </md-card-expand>
+      </md-card>
 
       <md-card class="tile" data-aos-anchor-placement="top-center">
         <md-card-header>
