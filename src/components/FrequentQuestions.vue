@@ -17,9 +17,9 @@
             <i class="fa fa-chevron-down" />
           </md-button>
         </md-card-actions>
-        <md-card-content>
+        <md-card-content class="align-left">
           <ul>
-            <li>Thursday we will be hosting Casual Welcome Drinks. This event is optional.</li>
+            <li>Thursday we will be hosting Casual Welcome Drinks. This event is optional. Location TBD</li>
             <li>Friday, we welcome all guests to 7 PM Rehearsal Dinner at the <a href="https://www.visitluxembourg.com/en/place/castle/bock-casemates-luxembourg" target="_blank">Bock Casemates</a>. Shuttles to/from Novotel & Sofitel Hotels will be provided.</li>
             <li>Saturday, Wedding Ceremony begins at 3 PM. Cocktail hour at 4 PM and Dinner at 7 PM</li>
           </ul>
@@ -93,20 +93,7 @@
           </md-button>
         </md-card-actions>
         <md-card-content>
-          <md-list class="md-double-line">
-            <md-list-item>
-              <div>
-                <div>For the men</div>
-                <span class="subtitle">Jacket and tie.</span>
-              </div>
-            </md-list-item>
-            <md-list-item>
-              <div>
-                <div>For the women</div>
-                <span class="subtitle">A cocktail dress or dressy skirt and top.</span>
-              </div>
-            </md-list-item>
-          </md-list>
+        Semi-formal
         </md-card-content>
       </md-card-expand>
 
@@ -157,5 +144,8 @@ export default {
 
   .warning {
     color: red;
+  }
+  .md-card-expand:not(.md-active) .md-card-content {
+    display: none;
   }
 </style>

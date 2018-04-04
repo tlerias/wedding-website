@@ -622,4 +622,8 @@ export default {
   .todo-website {
     display: block;
   }
+
+  .md-card-expand:not(.md-active) .md-card-content {
+    display: none;
+  }
 </style>
