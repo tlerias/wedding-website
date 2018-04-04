@@ -179,7 +179,7 @@
         <md-card-content class="flex travel-info">
           <div class="center">
             All guests are invited to the Rehearsal Dinner.
-            <br />It will be at 7 PM at
+            <br />3rd August 2018 - 7 PM at
             <a class="emphasize center" href="https://www.visitluxembourg.com/en/place/castle/bock-casemates-luxembourg" target="_blank">Bock Casemates</a></div>
           The venue is located inside the Bock Casemates which is a man-made cave system.
           <ul>
