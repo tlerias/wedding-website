@@ -308,7 +308,8 @@
             </md-button>
           </md-card-actions>
           <md-card-content>
-
+            <a class="todo-website" href="http://www.castle-vianden.lu/english/index.html" target="_blank">Website</a>
+            Vianden Castle is a beautiful castle 45 minutes away from the city in North Luxembourg. Tours of the castle are available (and recommended!).
 
           </md-card-content>
         </md-card-expand>
@@ -321,21 +322,21 @@
             </md-button>
           </md-card-actions>
           <md-card-content>
-
-
+            <a class="todo-website" href="http://www.visitmoselle.lu/en/vins-terroir" target="_blank">Website</a>
+            The Moselle river runs along the border of Germany and Luxembourg. This region in Luxembourg is well known for thier white wines. Many vinyards are available to visit and tour. We recommend trying Moselle Rieslings.
           </md-card-content>
         </md-card-expand>
         <md-card-expand class="travel-info">
           <md-card-actions>
-            Hiking in Mullerthall
+            Hiking in Mullerthal
             <span style="flex: 1"></span>
             <md-button class="md-icon-button" md-expand-trigger>
               <i class="fa fa-chevron-down" />
             </md-button>
           </md-card-actions>
           <md-card-content>
-
-
+            <a class="todo-website" href="http://www.mullerthal.lu/en" target="_blank">Website</a>
+            Mullerthal is known as "Little Switzerland". There are 112 km of hiking trails that shows you the beauty of Luxembourg nature.
           </md-card-content>
         </md-card-expand>
         <md-card-expand class="travel-info">
@@ -347,7 +348,9 @@
             </md-button>
           </md-card-actions>
           <md-card-content>
-
+            <a class="todo-website" href="https://www.visitluxembourg.com/en/place/castle/bock-casemates-luxembourg" target="_blank">Website</a>
+            Luxembourg once was a fortress with a 23 km network of casemates that housed thousands of soldiers and their horses, and also housed workshops, kitchens, bakeries, slaughter-houses, etc.
+            You can visit these casemates today and our Rehearsal Dinner will be hosted here!
 
           </md-card-content>
         </md-card-expand>
@@ -361,7 +364,8 @@
             </md-button>
           </md-card-actions>
           <md-card-content>
-
+            <a class="todo-website" href="https://www.mudam.lu/en/le-musee/" target="_blank">Website</a>
+            MUDAM museum is the museum of modern art in Luxembourg.
 
           </md-card-content>
         </md-card-expand>
@@ -375,7 +379,8 @@
             </md-button>
           </md-card-actions>
           <md-card-content>
-
+            <a class="todo-website" href="http://citymuseum.lu/en/" target="_blank">Website</a>
+            Learn about the history of Luxembourg
 
           </md-card-content>
         </md-card-expand>
@@ -389,21 +394,23 @@
             </md-button>
           </md-card-actions>
           <md-card-content>
-
+            <a class="todo-website" href="https://www.tripadvisor.com/Attractions-g188659-Activities-Bastogne_Luxembourg_Province_The_Ardennes_Wallonia.html" target="_blank">Website</a>
+            About an hour drive away from the city is Bastogne. Here was the location of the Battle of the Bulge. Bastogne makes a great day trip.
 
           </md-card-content>
         </md-card-expand>
 
         <md-card-expand class="travel-info">
           <md-card-actions>
-            American Military Cemetery
+            Luxembourg American Cemetery and Memorial
             <span style="flex: 1"></span>
             <md-button class="md-icon-button" md-expand-trigger>
               <i class="fa fa-chevron-down" />
             </md-button>
           </md-card-actions>
           <md-card-content>
-
+            <a class="todo-website" href="https://www.abmc.gov/cemeteries-memorials/europe/luxembourg-american-cemetery#.WsVAI9NuYWo" target="_blank">Website</a>
+            Luxembourg has a beautiful cemetery in memorial for our American soldiers lost in service. Here you will find the memorial for the famous General Patton.
 
           </md-card-content>
         </md-card-expand>
@@ -417,21 +424,22 @@
             </md-button>
           </md-card-actions>
           <md-card-content>
-
-
+            <a class="todo-website" href="https://www.visitluxembourg.com/en/place/misc/cathedrale-notre-dame" target="_blank">Website</a>
+            A beautiful cathedral in city center.
           </md-card-content>
         </md-card-expand>
 
         <md-card-expand class="travel-info">
           <md-card-actions>
-            Grand Dukes Palace
+            Grand Ducal Palace
             <span style="flex: 1"></span>
             <md-button class="md-icon-button" md-expand-trigger>
               <i class="fa fa-chevron-down" />
             </md-button>
           </md-card-actions>
           <md-card-content>
-
+            <a class="todo-website" href="https://www.visitluxembourg.com/en/place/castle/palace-of-the-grand-dukes" target="_blank">Website</a>
+            See where the Grand Duke of Luxembourg lives. Guided tours available.
 
           </md-card-content>
         </md-card-expand>
@@ -445,25 +453,10 @@
             </md-button>
           </md-card-actions>
           <md-card-content>
-
-
+            <a class="todo-website" href="https://www.tripadvisor.com/Attraction_Review-g190356-d5003559-Reviews-Grund-Luxembourg_City.html" target="_blank">Website</a>
+            Beautiful view of the city. Follow the walkways near the canal to see the best views in the city.
           </md-card-content>
         </md-card-expand>
-
-        <md-card-expand class="travel-info">
-          <md-card-actions>
-            The Chocolate House
-            <span style="flex: 1"></span>
-            <md-button class="md-icon-button" md-expand-trigger>
-              <i class="fa fa-chevron-down" />
-            </md-button>
-          </md-card-actions>
-          <md-card-content>
-
-
-          </md-card-content>
-        </md-card-expand>
-      </md-card>
 
       <md-card class="tile" data-aos-anchor-placement="top-center">
         <md-card-header>
@@ -623,5 +616,9 @@ export default {
 
   .warning {
     color: red;
+  }
+
+  .todo-website {
+    display: block;
   }
 </style>
