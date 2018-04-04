@@ -181,9 +181,13 @@
           <div class="center">
             It will be at 7 PM at
             <a class="emphasize center" href="https://www.visitluxembourg.com/en/place/castle/bock-casemates-luxembourg" target="_blank">Bock Casemates</a></div>
-          Shuttles will be leaving Novotel and Sofitel hotels promptly at 6:45 PM.
-          As this is a tourist spot, all guests are able to walk around the Casemates free of charge.
-          <div class="center"><b>Flat shoes are recommended.</b></div>
+          The venue is located in the Bock Casemates which is a man made cave system.
+          <ul>
+            <li>Shuttles will be leaving Novotel and Sofitel hotels promptly at 6:45 PM.</li>
+            <li>Shuttles will return to the hotel at 10 PM.</li>
+            <li>The floor is uneven in places, as such we recommend flat/comfortable shoes.</li>
+            <li>Guests are welcome to explore the Casemates during the event.</li>
+          </ul>
         </md-card-content>
       </md-card>
       <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left" id="getting-to">
