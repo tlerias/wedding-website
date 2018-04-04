@@ -177,9 +177,9 @@
         </md-card-header>
         <i class="title-icon fa fa-utensils" />
         <md-card-content class="flex travel-info">
-          All guests are invited to the Rehearsal Dinner.
           <div class="center">
-            It will be at 7 PM at
+            All guests are invited to the Rehearsal Dinner.
+            <br />It will be at 7 PM at
             <a class="emphasize center" href="https://www.visitluxembourg.com/en/place/castle/bock-casemates-luxembourg" target="_blank">Bock Casemates</a></div>
           The venue is located in the Bock Casemates which is a man made cave system.
           <ul>
