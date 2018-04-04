@@ -1,20 +1,20 @@
 <template>
   <md-card class="wedding-party" id="weddingParty">
     <h2>Wedding Party</h2>
-    <p>Our wedding party was carefully hand picked and we are looking forward to revealing who they are.
-      <br/>This page will be up and running soon, so be patient.</p>
-    <!--<md-card-content class="flex">
-      <div>
+    <md-card-content class="flex">
+      <div class="col">
         <h3>Matron of Honor</h3> {{matronofhonor}}
         <h3>Bridesmaids</h3>
-        <div v-for="bridesmaid in bridesmaids">{{bridesmaid}}</div>
+        <div> We will be revealing our Bridesmaids soon.</div>
+        <!-- <div v-for="bridesmaid in bridesmaids">{{bridesmaid}}</div> -->
       </div>
-      <div>
+      <div class="col">
         <h3>Best Man</h3> {{bestman}}
         <h3>Groomsmen</h3>
-        <div v-for="groomsman in groomsmen">{{groomsman}}</div>
+        <div> We will be revealing our Groomsmen soon.</div>
+        <!-- <div v-for="groomsman in groomsmen">{{groomsman}}</div> -->
       </div>
-    </md-card-content> -->
+    </md-card-content>
   </md-card>
 </template>
 
@@ -63,6 +63,10 @@ export default {
     padding: 1rem;
     font-weight: 300;
     min-height: 50vmax;
+  }
+
+  .col {
+    margin: 0 30px;
   }
 
   .flex {
