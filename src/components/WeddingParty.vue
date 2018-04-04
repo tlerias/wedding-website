@@ -38,17 +38,12 @@ export default {
       groomsmen: [
         'Tyler Ruggieri',
         'Pat Groome',
-        'Dane Bennett',
         'Dave Tell',
         'Nick Lerias',
         'Brandon Lerias',
         'Jeremy Markferding',
         'Charlie Kirkland',
         'Josh Harakal',
-        'Jack Bird',
-        'Alex Terry',
-        'Jason Schwitzer',
-        'Ben Suarez',
       ],
     };
   },
