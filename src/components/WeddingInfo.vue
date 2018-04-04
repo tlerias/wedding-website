@@ -6,13 +6,14 @@
         <md-card-header>
           <div class="md-title">Location, Date & Time</div>
         </md-card-header>
-        <i class="title-icon fa fa-fort-awesome" />
+        <i class="title-icon fab fa-fort-awesome" />
         <a href="http://www.chateau-arlon.be/en/" class="emphasize" target="_blank">Château du Bois d'Arlon</a>
         <div>Route de Virton 354, 6700 Arlon, Belgium</div>
         <section>
           <h3 class="sub-header">Time and date</h3>
-          <i class="title-icon fa fa-clock-o" />
+          <i class="title-icon fa fa-clock" />
           <div>4th August 2018</div>
+          <div>3 PM</div>
         </section>
       </md-card>
 
@@ -24,8 +25,8 @@
         </md-card-header>
         <md-card-content class="hotel-block">
           <div class="currency-container">
-            <i class="currency fa fa-eur" />
-            <i class="currency fa fa-eur" />
+            <i class="currency fa fa-euro-sign" />
+            <i class="currency fa fa-euro-sign" />
           </div>
           <a class="emphasize" href="http://www.accorhotels.com/gb/hotel-5556-novotel-luxembourg-centre/index.shtml" target="_blank">Hotel Novotel Luxembourg Centre</a>
           <div>35 Rue du Laboratoire, 1911 Luxembourg</div>
@@ -42,12 +43,12 @@
               <md-list class="md-dense">
                 <md-list-item>
                   <span>Superior Single Room</span>
-                  <span class="md-list-action"><i class="fa fa-eur" /> 95 per night.</span>
+                  <span class="md-list-action"><i class="fa fa-euro-sign" /> 95 per night.</span>
                 </md-list-item>
                 <md-divider></md-divider>
                 <md-list-item>
                   <span>Superior Double Room</span>
-                  <span class="md-list-action"><i class="fa fa-eur" /> 105 per night.</span>
+                  <span class="md-list-action"><i class="fa fa-euro-sign" /> 105 per night.</span>
                 </md-list-item>
                 <md-divider></md-divider>
               </md-list>
@@ -70,9 +71,9 @@
 
         <!-- <md-card-content class="hotel-block">
           <div class="currency-container">
-            <i class="currency fa fa-eur" />
-            <i class="currency fa fa-eur" />
-            <i class="currency fa fa-eur" />
+            <i class="currency fa fa-euro-sign" />
+            <i class="currency fa fa-euro-sign" />
+            <i class="currency fa fa-euro-sign" />
           </div>
           <a class="emphasize"  href="http://www.leroyalluxembourg.com/" target="_blank">Hôtel Le Royal</a>
           <div>12 Boulevard Royal, 2449 Luxembourg</div>
@@ -89,12 +90,12 @@
               <md-list class="md-dense">
                 <md-list-item>
                   <span>Single Occupancy </span>
-                  <span class="md-list-action"><i class="fa fa-eur" /> 155 per night.</span>
+                  <span class="md-list-action"><i class="fa fa-euro-sign" /> 155 per night.</span>
                 </md-list-item>
                 <md-divider></md-divider>
                 <md-list-item>
                   <span>Double Occupancy</span>
-                  <span class="md-list-action"><i class="fa fa-eur" /> 180 per night.</span>
+                  <span class="md-list-action"><i class="fa fa-euro-sign" /> 180 per night.</span>
                 </md-list-item>
                 <md-divider></md-divider>
               </md-list>
@@ -121,9 +122,9 @@
 
         <md-card-content class="hotel-block">
           <div class="currency-container">
-            <i class="currency fa fa-eur" />
-            <i class="currency fa fa-eur" />
-            <i class="currency fa fa-eur" />
+            <i class="currency fa fa-euro-sign" />
+            <i class="currency fa fa-euro-sign" />
+            <i class="currency fa fa-euro-sign" />
           </div>
           <a class="emphasize"  href="http://www.sofitel.com/gb/hotel-5555-sofitel-luxembourg-le-grand-ducal/index.shtml" target="_blank">Sofitel Luxembourg Le Grand Ducal</a>
           <div>40 Boulevard d'Avranches, 1160 Luxembourg</div>
@@ -140,12 +141,12 @@
               <md-list class="md-dense">
                 <md-list-item>
                   <span>Single Occupancy </span>
-                  <span class="md-list-action"><i class="fa fa-eur" /> 125 per night.</span>
+                  <span class="md-list-action"><i class="fa fa-euro-sign" /> 125 per night.</span>
                 </md-list-item>
                 <md-divider></md-divider>
                 <md-list-item>
                   <span>Double Occupancy</span>
-                  <span class="md-list-action"><i class="fa fa-eur" /> 140 per night.</span>
+                  <span class="md-list-action"><i class="fa fa-euro-sign" /> 140 per night.</span>
                 </md-list-item>
                 <md-divider></md-divider>
               </md-list>
@@ -169,6 +170,21 @@
         </md-card-content>
 
         <h4 v-on:click="() => scroll('wedding-block')">Wedding Block Prices</h4>
+      </md-card>
+      <md-card class="tile" data-aos-anchor-placement="top-center">
+        <md-card-header>
+          <div class="md-title">Rehearsal Dinner</div>
+        </md-card-header>
+        <i class="title-icon fa fa-utensils" />
+        <md-card-content class="flex travel-info">
+          All guests are invited to the Rehearsal Dinner.
+          <div class="center">
+            It will be at 7 PM at
+            <a class="emphasize center" href="https://www.visitluxembourg.com/en/place/castle/bock-casemates-luxembourg" target="_blank">Bock Casemates</a></div>
+          Shuttles will be leaving Novotel and Sofitel hotels promptly at 6:45 PM.
+          As this is a tourist spot, all guests are able to walk around the Casemates free of charge.
+          <div class="center"><b>Flat shoes are recommended.</b></div>
+        </md-card-content>
       </md-card>
       <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left" id="getting-to">
         <md-card-header>
@@ -236,8 +252,219 @@
           <div class="md-title">Getting around Luxembourg</div>
         </md-card-header>
         <i class="title-icon fa fa-bicycle" />
-        More info to come!
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Public Transportation
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>The public transportation system is very easy. Google Maps can tell you exactly how to get from Point A to Point B. You can pay 2 Euros for a single ride or 4 Euros for the whole day.</md-card-content>
+        </md-card-expand>
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Walking
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>Luxembourg is also very small, it is quite easy to walk to places.</md-card-content>
+        </md-card-expand>
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Taxi
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>Uber does not exist in Luxembourg, but there is a similar app call <a href="https://www.webtaxi.lu/en/welcome.html" target="_blank">WebTaxi</a>. However, it is expensive.</md-card-content>
+        </md-card-expand>
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Bike
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>There are CityBike stations all over Luxembourg. You can rent a bike this way.</md-card-content>
+        </md-card-expand>
       </md-card>
+
+      <md-card class="tile" data-aos-anchor-placement="top-center" data-aos-once="true" data-aos="flip-left">
+        <md-card-header>
+          <div class="md-title">Things to do around Luxembourg</div>
+        </md-card-header>
+        <i class="title-icon fa fa-binoculars" />
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Vianden Castle
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Wine Tasting in Remich
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Hiking in Mullerthall
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Um Bock Casemates* Wedding Rehearsal Dinner will be hosted here
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+          MUDAM Museum
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Luxembourg City History Museum
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Battle of the Bulge location (Bastogne, Belgium)
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            American Military Cemetery
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Notre Dame
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            Grand Dukes Palace
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            The Grund
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+
+        <md-card-expand class="travel-info">
+          <md-card-actions>
+            The Chocolate House
+            <span style="flex: 1"></span>
+            <md-button class="md-icon-button" md-expand-trigger>
+              <i class="fa fa-chevron-down" />
+            </md-button>
+          </md-card-actions>
+          <md-card-content>
+
+
+          </md-card-content>
+        </md-card-expand>
+      </md-card>
+
       <md-card class="tile" data-aos-anchor-placement="top-center">
         <md-card-header>
           <div class="md-title">Registry</div>
@@ -334,6 +561,7 @@ export default {
   }
 
   .emphasize {
+    display: inline-block;
     font-weight: bold;
     font-size: 1.25rem;
   }
@@ -348,8 +576,11 @@ export default {
 
   .title-icon {
     display: block;
+    height: 1em;
     font-size: 2rem;
     margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .block-dates {
@@ -382,6 +613,12 @@ export default {
 
   .main {
     flex-basis: 100%;
+  }
+
+  .center {
+    text-align: center;
+    display: block;
+    width: 100%;
   }
 
   .warning {

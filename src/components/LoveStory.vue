@@ -46,8 +46,7 @@
 
         <div>
           <h3>Our first human child, Baby A!</h3>
-          <p>We are expecting our first born, Avery Jane Bird, on December 31st 2017. We can't wait to meet our little girl. So far she has quite the personality. She always has her hand up to her face in sonograms and she is quite the little marcher in the womb these days. More information to come!
-          </p>
+          <p>Avery Jane Bird was born on January 2nd 2018. In her first few months of life, she has been to several countries (France, The Netherlands, Switzerland and others). She loves to babble and laugh! We love watching her grow.</p>
         </div>
 
         <div>

@@ -17,7 +17,13 @@
             <i class="fa fa-chevron-down" />
           </md-button>
         </md-card-actions>
-        <md-card-content>More info to come!</md-card-content>
+        <md-card-content>
+          <ul>
+            <li>Thursday we will be hosting Casual Welcome Drinks. This event is optional.</li>
+            <li>Friday, we welcome all guests to 7 PM Rehearsal Dinner at the <a href="https://www.visitluxembourg.com/en/place/castle/bock-casemates-luxembourg" target="_blank">Bock Casemates</a>. Shuttles to/from Novotel & Sofitel Hotels will be provided.</li>
+            <li>Saturday, Wedding Ceremony begins at 3 PM. Cocktail hour at 4 PM and Dinner at 7 PM</li>
+          </ul>
+        </md-card-content>
       </md-card-expand>
 
       <md-card-expand>
