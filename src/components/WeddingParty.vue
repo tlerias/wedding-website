@@ -29,10 +29,8 @@ export default {
         'Katie Persichilli',
         'Kinsey Durham',
         'Diana Garces',
-        'Liza Narvas',
         'Alina Lerias',
         'Lesley Lerias',
-        'Courtney Lerias',
         'Nikki Oliveri',
       ],
       groomsmen: [
@@ -40,10 +38,10 @@ export default {
         'Pat Groome',
         'Dave Tell',
         'Nick Lerias',
-        'Brandon Lerias',
         'Jeremy Markferding',
         'Charlie Kirkland',
         'Josh Harakal',
+        'Mike Moore',
       ],
     };
   },
