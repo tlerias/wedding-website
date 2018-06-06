@@ -5,14 +5,12 @@
       <div class="col">
         <h3>Matron of Honor</h3> {{matronofhonor}}
         <h3>Bridesmaids</h3>
-        <div> We will be revealing our Bridesmaids soon.</div>
-        <!-- <div v-for="bridesmaid in bridesmaids">{{bridesmaid}}</div> -->
+        <div v-for="bridesmaid in bridesmaids">{{bridesmaid}}</div>
       </div>
       <div class="col">
         <h3>Best Man</h3> {{bestman}}
         <h3>Groomsmen</h3>
-        <div> We will be revealing our Groomsmen soon.</div>
-        <!-- <div v-for="groomsman in groomsmen">{{groomsman}}</div> -->
+        <div v-for="groomsman in groomsmen">{{groomsman}}</div>
       </div>
     </md-card-content>
   </md-card>
